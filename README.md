@@ -1,10 +1,10 @@
 # OpenAlexGroup
 # Fast API
 See install options and usage at: https://fastapi.tiangolo.com/
-'''
+```bash
 $ pip3 install fastapi
 $ pip3 install uvicorn[standard]
-'''
+```
 
 Launch:
 ```
