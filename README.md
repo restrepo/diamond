@@ -15,11 +15,11 @@ http://127.0.0.1:8000/
 
 You can now filter with the JSON keys into the url, e.g:
 
-http://127.0.0.1:8000/?student_id=1001735333
+http://127.0.0.1:8000/?concept=particle+physics
 
 To obtain the JSON output use:
 
-http://127.0.0.1:8000/?student_id=1001735333&output=json
+http://127.0.0.1:8000/?concept=particle+physics&output=json
 
 
 ## Backend
