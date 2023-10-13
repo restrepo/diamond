@@ -1,5 +1,5 @@
-# OpenAlexGroup
-# Fast API
+# Diamond open access search with OpenAlex level-1 concepts 
+## FastAPI implementation
 See install options and usage at: https://fastapi.tiangolo.com/
 ```bash
 $ pip3 install fastapi
