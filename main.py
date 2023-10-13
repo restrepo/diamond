@@ -51,11 +51,12 @@ def read_item(concept: str = "", output: str = "html"):
     
     db=[
         { 
-          'journal'   : d.get('display_name'),
-          'publisher' : d.get('host_organization_name'),
-          'articles'  : f"{d.get('works_count'):,}",
-          'citations' : f"{d.get('cited_by_count'):,}",
-          'h_index'   : d.get('summary_stats').get('h_index')
+          'journal'     : d.get('display_name'),
+          'publisher'   : d.get('host_organization_name'),
+          'articles'    : f"{d.get('works_count'):,}",
+          'citations'   : f"{d.get('cited_by_count'):,}",
+          'h_index'     : d.get('summary_stats').get('h_index'),
+          'country_code': d.get('country_code')
          } for d in rr
     ]
     
