@@ -1,4 +1,5 @@
-# Diamond open access search with OpenAlex level-1 concepts 
+# [Diamond open access](https://en.wikipedia.org/wiki/Diamond_open_access) journals search
+from [level-1 OpenAlex concepts](https://github.com/restrepo/diamond/blob/main/static/data/level_1_concepts.csv) 
 ## FastAPI implementation
 See install options and usage at: https://fastapi.tiangolo.com/
 ```bash
