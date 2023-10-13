@@ -19,7 +19,7 @@ and copy and paste the url in your browser, e.g:
 
 http://127.0.0.1:8000/
 
-You need to inclued the [level-1 OpenAlex concept|https://github.com/restrepo/diamond/blob/main/static/data/level_1_concepts.csv], from the __normalized+name__ column, direclty in the url, e.g, for `particle+physics
+You need to write the [level-1 OpenAlex concept|https://github.com/restrepo/diamond/blob/main/static/data/level_1_concepts.csv], from the __normalized+name__ column, direclty in the url, e.g, for `particle+physics
 `:
 
 http://127.0.0.1:8000/?concept=particle+physics
