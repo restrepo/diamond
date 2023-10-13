@@ -30,7 +30,7 @@ def read_item(concept: str = "", output: str = "html"):
     
     or 
     
-    http://127.0.0.1:8000/?concept=particle+physics
+    http://127.0.0.1:8000/?concept=particle+physics&output=json
     '''
     
     # Get the OpenAlex level 1 concept id
